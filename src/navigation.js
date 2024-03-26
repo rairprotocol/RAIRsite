@@ -115,7 +115,7 @@ export const headerData = {
       href: '#',
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  actions: [{ text: 'Github', href: 'https://github.com/rairprotocol', target: '_blank' }],
 };
 
 export const footerData = {
