@@ -10,10 +10,6 @@ export const headerData = {
           href: getPermalink('/#features'),
         },
         {
-          text: 'About',
-          href: getPermalink('/about'),
-        },
-        {
           text: 'Contact',
           href: getPermalink('/contact'),
         },
@@ -28,8 +24,8 @@ export const headerData = {
       ],
     },
     {
-      text: 'Follow us on X',
-      href: 'twitter.com/rairtech',
+      text: 'Get in Touch',
+      href: getPermalink('/contact'),
     },
   ],
   actions: [{ text: 'Github', href: 'https://github.com/rairprotocol', target: '_blank' }],
@@ -43,7 +39,7 @@ export const footerData = {
         { text: 'Developer API', href: '#' },
         { text: 'Github', href: '#' },
         { text: 'Etherscan verify', href: '#' },
-        { text: 'About', href: '#' },
+        { text: 'Contact', href: '#' },
       ],
     },
     {
@@ -61,8 +57,8 @@ export const footerData = {
   ],
   socialLinks: [
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
-    { ariaLabel: 'Telegram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Linkedin', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
+    { ariaLabel: 'Telegram', icon: 'tabler:brand-telegram', href: '#' },
+    { ariaLabel: 'Linkedin', icon: 'tabler:brand-github', href: 'https://github.com/rairprotocol' },
   ],
   footNote: `
     <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
