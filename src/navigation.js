@@ -6,12 +6,8 @@ export const headerData = {
       text: 'Learn',
       links: [
         {
-          text: 'Features',
-          href: getPermalink('/#features'),
-        },
-        {
-          text: 'Contact',
-          href: getPermalink('/contact'),
+          text: 'Docs',
+          href: 'https://docs.rairprotocol.org',
         },
         {
           text: 'Terms',
@@ -36,18 +32,18 @@ export const footerData = {
     {
       title: 'Platform',
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Github', href: '#' },
+        { text: 'Developer API', href: 'https://docs.rairprotocol.org/rair-technologies/api/rair-api' },
+        { text: 'Github', href: 'https://github.com/rairprotocol' },
         { text: 'Etherscan verify', href: '#' },
-        { text: 'Contact', href: '#' },
+        { text: 'Contact', href: 'https://rairprotocol.org/contact' },
       ],
     },
     {
       title: 'Support',
       links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Status', href: '#' },
+        { text: 'Docs', href: 'https://docs.rairprotocol.org' },
+        { text: 'Community Forum', href: 'https://twitter.com/rairtech' },
+        { text: 'Status', href: 'https://twitter.com/rairtech' },
       ],
     },
   ],
