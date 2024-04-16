@@ -25,14 +25,6 @@ export const headerData = {
           text: 'Tokenomics',
           href: 'https://docs.rairprotocol.org/rairprotocol/tokenomics/overview',
         },
-        {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
-        },
       ],
     },
     {
@@ -51,8 +43,8 @@ export const footerData = {
         { text: 'Github', href: 'https://github.com/rairprotocol' },
         { text: 'API Reference', href: 'https://docs.rairprotocol.org/rairprotocol/codebase/rair-api' },
         { text: 'Smart Contracts', href: 'https://docs.rairprotocol.org/rairprotocol/codebase/rairdapp/rairsolidity' },
-        { text: 'Whitepaper', href: 'https://docs.rairprotocol.org/rairprotocol/codebase/rairdapp/rairsolidity' },
-        { text: 'Tokenomics', href: 'https://docs.rairprotocol.org/rairprotocol/codebase/rairdapp/rairsolidity' },
+        { text: 'Whitepaper', href: 'https://docs.rairprotocol.org/rairprotocol/whitepaper/introduction' },
+        { text: 'Tokenomics', href: 'https://docs.rairprotocol.org/rairprotocol/tokenomics/overview' },
       ],
     },
     {
