@@ -24,7 +24,7 @@ export const headerData = {
       href: getPermalink('/contact'),
     },
   ],
-  actions: [{ text: 'Github', href: 'https://github.com/rairprotocol', target: '_blank' }],
+  actions: [{ text: 'Demo', href: 'https://rair.market', target: '_blank' }],
 };
 
 export const footerData = {
@@ -34,7 +34,7 @@ export const footerData = {
       links: [
         { text: 'Developer API', href: 'https://docs.rairprotocol.org/rair-technologies/api/rair-api' },
         { text: 'Github', href: 'https://github.com/rairprotocol' },
-        { text: 'Etherscan verify', href: '#' },
+        { text: 'Smart contacts verify', href: '#' },
         { text: 'Contact', href: 'https://rairprotocol.org/contact' },
       ],
     },
