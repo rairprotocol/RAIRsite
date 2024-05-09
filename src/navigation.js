@@ -29,7 +29,7 @@ export const headerData = {
     },
     {
       text: 'Apply',
-      href: getPermalink('https://calendly.com/rairprotocol'),
+      href: 'https://calendly.com/rairprotocol',
     },
   ],
   actions: [{ text: 'Demo!', href: 'https://rair.market', target: '_blank' }],
