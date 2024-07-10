@@ -32,7 +32,7 @@ export const headerData = {
       href: 'https://calendly.com/rairprotocol',
     },
   ],
-  actions: [{ text: 'Demo!', href: 'https://rair.market', target: '_blank' }],
+  actions: [{ text: 'Demo!', href: 'https://rairprotocol.xyz', target: '_blank' }],
 };
 
 export const footerData = {
